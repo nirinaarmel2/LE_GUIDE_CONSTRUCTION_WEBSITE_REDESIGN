@@ -21,6 +21,8 @@ Projet collaboratif visant l’amélioration et l’optimisation de la page exis
 | PPT | Ny Antso Mampitony / Armel |
 
 ## Structure du projet
+
+```txt
 GCM-website-redesign/
 │
 ├── assets/
@@ -29,9 +31,10 @@ GCM-website-redesign/
 │   └── fonts/
 │
 ├── css/
-│   ├── style.css
-│   ├── responsive.css
-│   └── variables.css
+│   ├── index.css
+│   ├── collaborer.css
+│   └── realisations.css
+│   └── apropos.css
 │
 ├── js/
 │   └── main.js
@@ -51,6 +54,7 @@ GCM-website-redesign/
 ├── LICENSE
 ├── index.html
 └── package.json
+```
 
 ## Technologies
 - HTML5
