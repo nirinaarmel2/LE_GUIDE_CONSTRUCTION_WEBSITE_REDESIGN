@@ -2,6 +2,7 @@
 Projet collaboratif visant l’amélioration et l’optimisation de la page existante de l’entreprise LE GUIDE CONSTRUCTION MADAGASCAR.
 
 ## Objectifs
+- Application methode AGILE / SCRUM
 - Modernisation de l’interface
 - Optimisation UX/UI
 - Responsive Design
@@ -10,19 +11,51 @@ Projet collaboratif visant l’amélioration et l’optimisation de la page exis
 
 ## Répartition des tâches
 
-| Partie : Responsable |
-| Acceuil (Landing Page) : Micka Marson |
-| Collaborer / Repo Git : Armel |
-| Nos Réalisations : Nantenaina Andriantsoa |
-| A propos : Ginot Nomenjanahary |
-| Header + Footer : Harena Andriantsonina |
-| PPT : Ny Antso Mampitony |
+| Partie | Responsable |
+|---|---|
+| Acceuil (Landing Page) | Micka Marson |
+| Collaborer / repoGit | Armel |
+| Nos Réalisations | Nantenaina Andriantsoa |
+| A propos | Ginot Nomenjanahary |
+| Header + Footer | Harena Andriantsonina |
+| PPT | Ny Antso Mampitony / Armel |
+
+## Structure du projet
+GCM-website-redesign/
+│
+├── assets/
+│   ├── images/
+│   ├── icons/
+│   └── fonts/
+│
+├── css/
+│   ├── style.css
+│   ├── responsive.css
+│   └── variables.css
+│
+├── js/
+│   └── main.js
+│
+├── pages/
+│   ├── collaborer.html
+│   ├── realisations.html
+│   └── apropos.html
+│
+├── docs/
+│   ├── ppt/
+│   └── references/
+│
+├── .gitignore
+├── README.md
+├── CONTRIBUTING.md
+├── LICENSE
+├── index.html
+└── package.json
 
 ## Technologies
 - HTML5
 - CSS3
 - JavaScript
-- Bootstrap ou Tailwind CSS
 
 ## Convention Git
 Créer une branche par fonctionnalité :
