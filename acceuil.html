@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Le Guide Construction Madagascar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ══════════════════════════════════════
+     TOPBAR
+══════════════════════════════════════ -->
+<div class="topbar">
+  <a href="tel:+261347139480">
+    <span class="topbar__icone">📞</span>+261 34 71 394 80
+  </a>
+  <a href="mailto:contact@gcm.mg">
+    <span class="topbar__icone">✉</span>contact@gcm.mg
+  </a>
+  <span class="topbar__site">www.gcm.mg</span>
+</div>
+
+<!-- ══════════════════════════════════════
+     NAVIGATION
+══════════════════════════════════════ -->
+<nav class="nav" id="nav">
+  <a href="#haut" class="logo">
+    <div class="logo__badge"><img src="logo.jpg" alt=""></div>
+    <div>
+      <div class="logo__petit">Le</div>
+      <div class="logo__grand">Guide</div>
+      <div class="logo__pays">Construction Madagascar</div>
+    </div>
+  </a>
+
+  <ul class="nav__liens">
+    <li><a href="#services">Accueil</a></li>
+    <li><a href="#realisations">Réalisations</a></li>
+    <li><a href="#materiaux">Matériaux</a></li>
+    <li><a href="#atelier">Atelier</a></li>
+    <li><a href="#showroom">Showroom</a></li>
+    <li><a href="#contact" class="nav__cta">Devis gratuit</a></li>
+  </ul>
+
+  <div class="burger" id="burger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</nav>
+
+<!-- ══════════════════════════════════════
+     MENU MOBILE
+══════════════════════════════════════ -->
+<div class="mobile" id="mobile">
+  <button class="mobile__fermer" onclick="fermerMenu()">✕</button>
+  <a href="#services"     onclick="fermerMenu()">Services</a>
+  <a href="#realisations" onclick="fermerMenu()">Réalisations</a>
+  <a href="#materiaux"    onclick="fermerMenu()">Matériaux</a>
+  <a href="#atelier"      onclick="fermerMenu()">Atelier</a>
+  <a href="#showroom"     onclick="fermerMenu()">Showroom</a>
+  <a href="#contact"      onclick="fermerMenu()" style="color:var(--orange)">Devis gratuit →</a>
+</div>
+<section class="hero" id="haut">
+  <div class="hero__grille"></div>
+  <div class="hero__slash"></div>
+
+  <div class="hero__inner">
+    <div>
+      <div class="hero__label">Le Guide Construction Madagascar</div>
+      <h1 class="hero__titre">
+        L'univers de la<br>
+        <em>construction</em><br>
+        en un seul endroit
+      </h1>
+      <div class="hero__chips">
+        <span class="chip">Construction</span>
+        <span class="chip">Stand Expo</span>
+        <span class="chip">Aménagement</span>
+        <span class="chip">Matériaux</span>
+        <span class="chip">Mobilier</span>
+      </div>
+      <div class="hero__boutons">
+        <a href="#services" class="btn btn--plein">Découvrir nos services</a>
+        <a href="#contact"  class="btn btn--bord">Demander un devis</a>
+      </div>
+    </div>
+
+    <div class="carte">
+      <div class="carte__label">Contactez l'équipe commerciale</div>
+      <div class="carte__tel">+261 34 71<br>394 80</div>
+      <div class="carte__trait"></div>
+      <a href="tel:+261347139480" class="btn btn--plein" style="width:100%">
+        📞 Appeler maintenant
+      </a>
+      <a href="#contact" class="btn btn--bord-or" style="width:100%">
+        Formulaire de devis
+      </a>
+      <a href="#" onclick="afficherToast('Téléchargement en cours...');return false"
+         class="btn btn--bord-or"
+         style="width:100%;border-color:rgba(0,0,0,.12);color:#666">
+        📄 Dossier PDF
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="services-section">
+        <h2 class="title">Nos Solutions</h2>
+        <div class="grid-services">
+            
+            <div class="card">
+                <i class="fas fa-network-wired"></i>
+                <h3>Construction Villa et Appartements</h3>
+                <p>"Le Guide Construction Madagascar : 13 ans d'expertise dans la construction de villas et d'appartements, du gros œuvre aux finitions impeccables."</p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-database"></i>
+                <h3>Production et location de stand expo</h3>
+                <p>"Standiste de référence à Madagascar, nous créons vos stands sur mesure, du projet ambitieux au kit personnalisable (3×3, 3×6) prêt à la location."</p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-tools"></i>
+                <h3>Aménagement & Réhabilitation de local commercial</h3>
+                <p>"Aménagement clé en main : conception, travaux, mobilier et marketing. Nous transformons vos locaux pour les rendre attractifs et fonctionnels."</p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-code"></i>
+                <h3>Hourdis, poutrelles, parpaings</h3>
+                <p>"Fabrication et fourniture de matériaux de structure : hourdis, poutrelles et parpaings haute résistance pour vos planchers et murs."</p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-phone-alt"></i>
+                <h3>Production de mobilier sur mesure</h3>
+                <p>"Conception et fabrication de mobilier personnalisé de haute qualité. Des solutions sur mesure pour valoriser votre intérieur et optimiser chaque mètre carré.".</p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-print"></i>
+                <h3>Entretien et Maintenance de Bâtiments</h3>
+                <p>Préservez la valeur de votre patrimoine : nous assurons la maintenance préventive et curative (plomberie, étanchéité, peinture) pour garantir la pérennité de vos infrastructures.</p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-video"></i>
+                <h3>Aménagement Extérieur et Espaces Verts</h3>
+                <p>"Sublimez vos extérieurs : conception de jardins, pose de clôtures, pavage et création d'allées pour une harmonie parfaite entre votre bâtiment et son environnement."</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════
+     FOOTER
+══════════════════════════════════════ -->
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__haut">
+
+      <div class="footer__brand">
+        <div style="display:flex;align-items:center;gap:10px">
+          <span style="font-size:1.6rem">🏗</span>
+          <div>
+            <div style="font-weight:700;color:var(--blanc);font-size:.98rem">Le Guide Construction</div>
+            <div style="font-family:'Courier New',monospace;font-size:.55rem;letter-spacing:.22em;text-transform:uppercase;color:var(--orange)">Madagascar</div>
+          </div>
+        </div>
+        <p>
+          L'univers de la construction en un seul endroit. Basés à Antananarivo
+          depuis plus de 13 ans, nous accompagnons tous vos projets avec professionnalisme.
+        </p>
+        <div class="footer__reseaux">
+          <a href="#">f</a>
+          <a href="#">▶</a>
+        </div>
+      </div>
+
+      <div class="footer__col">
+        <h4>Nos services</h4>
+        <ul>
+          <li><a href="#services">Construction Villa</a></li>
+          <li><a href="#services">Stand Expo</a></li>
+          <li><a href="#services">Aménagement</a></li>
+          <li><a href="#services">Mobilier sur Mesure</a></li>
+          <li><a href="#materiaux">Parpaings &amp; Hourdis</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="#haut">Accueil</a></li>
+          <li><a href="#valeurs">Nos valeurs</a></li>
+          <li><a href="#realisations">Réalisations</a></li>
+          <li><a href="#atelier">Notre Atelier</a></li>
+          <li><a href="#showroom">Showroom</a></li>
+          <li><a href="#contact">Devis gratuit</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+261347139480">+261 34 71 394 80</a></li>
+          <li><a href="tel:+261340178571">+261 34 01 785 71</a></li>
+          <li><a href="tel:+261385655387">+261 38 36 553 87</a></li>
+          <li><a href="mailto:contact@gcm.mg">contact@gcm.mg</a></li>
+          <li><a href="#">Bel Air Ampandrana</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer__bas">
+      <p>© 2025 Le Guide Construction Madagascar. Tous droits réservés.</p>
+      <p>Fait avec <span>♥</span> à Antananarivo</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ══════════════════════════════════════
+     BOUTON FLOTTANT
+══════════════════════════════════════ -->
+<div class="flottant" id="flottant">
+  <a href="tel:+261347139480" class="flottant__tel">
+    <span>📞</span>
+    <span>+261 34 71 394 80</span>
+  </a>
+  <div class="flottant__haut" onclick="remonter()">↑</div>
+</div>
+
+<!-- ══════════════════════════════════════
+     TOAST
+══════════════════════════════════════ -->
+<div class="toast" id="toast"></div>
+
+<!-- ══════════════════════════════════════
+     JAVASCRIPT
+══════════════════════════════════════ -->
+<script src="js/script1.js"></script>
+
+</body>
+</html>
