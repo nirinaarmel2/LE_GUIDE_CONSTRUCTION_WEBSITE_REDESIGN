@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: block;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.contacts {
+    background-color: black;
+    color: white;
+    font-size: 2.3vh;
+}
+
+.contacts ul {
+    display: flex;
+    justify-content: baseline;
+    gap: 8vh;
+    padding: 2vh;
+    padding-inline-start: 10vh;
+    list-style: none;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    top: 0;
+}
+
+main {
+    padding-top: 25vh;
+    padding-inline: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    background-image: url(/assets/images/view-breathtaking-beach-nature-landscape.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 54vh;
+}
+
+header nav {
+    display: flex;
+    position: fixed;
+    color: aliceblue;
+    padding: 3vh;
+    background-color: rgb(255, 115, 0);
+    width: 100%;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    top: 6vh;
+}
+
+header nav img {
+    height: 8vh;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 3vh;
+}
+
+.title1 {
+    display: block;
+    align-items: first baseline;
+    color: white;
+}
+
+.title1 p {
+    font-size: 3vh;
+    padding: 2vh;
+}
+
+.title1 h1 {
+    font-size: 6.8vh;
+}
+
+.title2 p {
+    padding-top: 20vh;
+    padding-inline-end: 4vh;
+    color: white;
+}
+
+
+body strong .presentation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4vh;
+    font-size: 4vh;
+}
+
+.text{
+    display: block;
+    justify-content: center;
+    padding: 2vh;
+    gap: 2vh;
+}
+
+.text p {
+    justify-content: center;
+    display: flex;
+    padding: 1vh;
+    padding-inline: 3vh;
+    color: grey;
+}
+
+.text .images{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3vh;
+}
+
+.images img{
+    width: 42vh;
+    aspect-ratio: 2/1.5;
+    margin: 20px;
+    border-radius: 25px;
+    transition: 400ms;
+}
+
+.images img:hover{
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.gestion h1 {
+    text-align: center;
+    padding: 3vh;
+    font-size: 6vh;
+    font-weight: 100;
+    color: rgba(0, 58, 52);
+}
+
+#list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 4vh;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+}
+
+#list .card {
+    display: block;
+    justify-content: center;
+    padding-inline: 6vh;
+    text-align: left;
+    border: solid 2px rgba(0, 58, 52);
+    padding: 3vh;
+    border-radius: 15px;
+    box-shadow: 0 8px 14px rgba(0, 0, 0, 0.322);
+    background-color: rgba(0, 73, 66, 0.863);
+    color: white;
+}
+
+.card h1 {
+    font-weight: bold;
+    font-size: 3vh;
+    text-align: left;
+    color: white;
+}
+
+.card p {
+    font-size: 2.5vh;
+    color: white;
+}
+
+#visite {
+    background-color: black;
+    color: white;
+    margin-top: 4vh;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    justify-content: space-around;
+    padding: 5vh;
+    padding-inline: 10vh;
+}
+
+#visite .left{
+    color: white;
+    align-items: start;
+}
+
+.left h1{
+    font-size: 8vh;
+    color: white;
+    text-align: center;
+}
+
+.left p{
+    color: white;
+    font-size: 2.8vh;
+    justify-content: center;
+    align-items: start;
+    margin: 2vh;
+    text-align: center;
+}
+
+.left img{
+    width: 70vh;
+    height: 70vh;
+    display: flex;
+    margin: auto;
+}
+
+.right img{
+    width: 45vh;
+    height: 86vh;
+    margin: 3vh;
+}
+
+.right button{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 3vh;
+    background-color: rgb(255, 115, 0);
+    color: white;
+    font-size: 1.9vh;
+    font-weight: bold;
+    transition: 400ms;
+    border-radius: 3px;
+}
+
+.right button:hover{
+    cursor: pointer;
+    background-color: rgb(255, 148, 60);
+    color: black;
+}
+
+footer {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 58, 52);
+    color: white;
+    padding: 4vh;
+    gap: 3vh;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: uppercase;
+    font-size: 2.0vh;
+    list-style: none;
+    padding-block: 2vh;
+}
+
+footer ul li {
+    transition: 400ms;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+footer ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.lastFooter{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.lastFooter p{
+    text-align: center;
+    color: white;
+    font-size: 4vh;
+}
+
+.lastFooter h1{
+    text-align: center;
+    font-size: 10vh;
+    padding: 10px;
+}
+
+.buttonUp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    border: solid 3px white;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    transition: 400ms;
+}
+
+.buttonUp:hover{
+    background-color: white;
+    color: rgba(0, 73, 66, 0.863);
+    cursor: pointer;
+}
+
+.buttonDown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    transition: 400ms;
+    border: solid 3px black;
+}
+
+.buttonDown:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.267);
+    padding: 10px;
+    border: solid 3px rgba(0, 0, 0, 0.5);
+}
